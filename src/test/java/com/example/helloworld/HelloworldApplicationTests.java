@@ -18,6 +18,6 @@ class HelloworldApplicationTests {
 	void shouldReturnHelloWorld() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/"))
 			.andExpect(MockMvcResultMatchers.status().isOk())
-			.andExpect(MockMvcResultMatchers.content().string("Hello World 02!"))	;
+			.andExpect(MockMvcResultMatchers.content().string("Hello World 03!"))	;
     }
 }
